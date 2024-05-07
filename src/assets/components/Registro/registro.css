@@ -1,0 +1,56 @@
+.formulario-1 {
+    padding: 50px;
+    border: 10px solid #010080;
+    border-radius: 50px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 25%;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.658);
+    text-shadow: 1.5px 1.5px 4px #010080;
+    color: #ffffff;
+
+    h1 {
+        margin-bottom: 17px;
+        color: #ffffff;
+        text-align: center;
+        font-family: catboo-font;
+        text-shadow: 1.5px 1.5px 4px #010080;
+    }
+
+    .tritulos-formulario {
+
+        font-family: catboo-font;
+    }
+
+    .grupo-check {
+        display: flex;
+        font-family: catboo-font;
+
+    }
+
+    .check-form {
+        margin-right: 10px;
+    }
+
+}
+
+.formulario-registro {
+    position: relative;
+    text-align: center;
+  }
+  
+  .filtro {
+    padding: 50px;
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    width: 50%;
+    height: 87%;
+    background-color: rgba(59, 59, 59, 0.623); /* Color del filtro (blanco semitransparente) */
+    filter: blur(10px); /* Ajusta el valor de desenfoque según tus preferencias */
+    z-index: -1; /* Coloca el filtro detrás del contenido */
+  }

@@ -1,0 +1,31 @@
+.home {
+    padding: 0;
+    margin: 34px;
+    /* margin-top: 200px; */
+    /* border: 2px solid rgb(255, 0, 0); */
+
+    h2 {
+        color: #ffffff;
+        text-align: center;
+        font-family: catboo-font;
+        text-shadow: 1.5px 1.5px 4px #010080;
+    }
+
+    p {
+        font-size: 15px;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 1.5px 1.5px 4px #010080;
+        
+    }
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    font-family: catboo-font;
+    text-shadow: 1.5px 1.5px 4px #010080;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+

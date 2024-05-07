@@ -1,0 +1,103 @@
+.App {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #010080 !important;
+    width: 20% !important;
+}
+
+.btn-primary:hover {
+    background-color: #0202ac !important;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: -10px;
+    padding: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/uni-2.jpg);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.menu {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    margin: 0 0 0 -35px;
+}
+
+.botones-menu {
+    margin-left: 1467px;
+    text-align: right;
+    font-family: catboo-font;
+    padding: 10px 15px;
+    text-shadow: 1.5px 1.5px 4px #010080;
+    /* border: 2px solid white; */
+
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul li {
+        text-align: right;
+        display: inline;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #ffffff;
+}
+}
+
+.logo-menu {
+    text-align: left;
+    padding: 0 auto;
+    margin-left: 60px;
+
+
+    .logo {
+        width: 150px;
+        margin: 0px;
+        filter: drop-shadow(0 0 6px rgb(151, 151, 151));
+    }
+}
+
+.footer {
+    display: flex;
+    text-align: right;
+    padding-top: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+
+    .prontera {
+        margin-left: 760px;
+        margin-right: 608px;
+        width: 150px;
+        filter: drop-shadow(0 0 6px rgb(151, 151, 151));
+    }
+
+    .iconos {
+        width: 50px;
+        margin-left: 80px;
+        margin-top: 20px;
+        color: #ffffff;
+        filter: drop-shadow(0 0 6px rgb(151, 151, 151));
+    }
+
+    p {
+        color: #ffffff;
+        font-size: 20px;
+        font-family: catboo-font;
+        margin-top: 68px;
+        text-shadow: 1.5px 1.5px 4px #010080;
+    }
+}
